@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Stellar Toml Creator
-Plugin URI: https://github.com/esecamalich/stellar-toml-creator
-Description: This plugin creates the /.well-known/stellar.toml file. See Settings: Stellar Toml Creator for details.
+Plugin Name: Create Stellar Toml
+Plugin URI: https://github.com/esecamalich/create-stellar-toml
+Description: This plugin creates the /.well-known/stellar.toml file. See Settings: Create Stellar Toml for details.
 Version: 1.0.4
 Author: Sergio Camalich
 Author URI: https://www.camali.ch
@@ -125,7 +125,7 @@ class StellarWellKnownUriSettings {
   }
 
   public function add_plugin_page() {
-    add_options_page('Settings Admin', 'Stellar Toml Creator', 'manage_options', $this->slug, array($this, 'create_admin_page'));
+    add_options_page('Settings Admin', 'Create Stellar Toml', 'manage_options', $this->slug, array($this, 'create_admin_page'));
   }
 
   public function admin_notices() {
@@ -136,7 +136,7 @@ class StellarWellKnownUriSettings {
     $this->options = get_option(STELLAR_WELL_KNOWN_URI_OPTION_NAME);
 ?>
     <div class="wrap">
-      <img src="<?php echo plugins_url( 'stellar_icon_300px.png', __FILE__ ); ?>" height="50px" /><h1>Stellar Toml Creator</h1>
+      <img src="<?php echo plugins_url( 'stellar_icon_300px.png', __FILE__ ); ?>" height="50px" /><h1>Create Stellar Toml</h1>
         <form method="post" action="options.php">
 <?php
     settings_fields($this->option_group);

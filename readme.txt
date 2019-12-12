@@ -1,4 +1,4 @@
-=== stellar-toml-creator ===
+=== create-stellar-toml ===
 Contributors: pfefferle, mrose17, esecamalich
 Tags: well-known, well-known-uris, toml, stellar
 Requires at least: 3.5.1
@@ -21,13 +21,13 @@ This is a good security practice.
 
 = 1.0.4 =
 
-* Optimized for Stellar Toml Creator
+* Optimized for Create Stellar Toml
 
 == Installation ==
 
 1. Upload this plugin to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the *Plugins* menu in WordPress.
-3. Go to *Settings > Stellar Toml Creator*, enter the verification code you received, and click on `Save Changes`.
+3. Go to *Settings > Create Stellar Toml*, enter the verification code you received, and click on `Save Changes`.
 4. Once you have received an e-mail that your site has been verified, deactivate this plugin.
 
 
