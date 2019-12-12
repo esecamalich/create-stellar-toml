@@ -1,35 +1,35 @@
-=== brave-payments-verification ===
-Contributors: pfefferle, mrose17
-Tags: well-known, well-known-uris, discovery, brave
+=== stellar-toml-creator ===
+Contributors: pfefferle, mrose17, esecamalich
+Tags: well-known, well-known-uris, toml, stellar
 Requires at least: 3.5.1
 Tested up to: 4.9.1
 Stable tag: 1.0.4
 License: MPL2
-    
+
 "Well-Known URIs" for WordPress!
 
 == Description ==
 
-This plugin creates the /.well-known/brave-payments-verification.txt file.
+This plugin creates the /.well-known/stellar.toml file.
 
 You will need 'manage_options' capability in order to use the Settings page for this plugin.
 
 NOTE: as with all plugins, once you are no longer using the plugin, you should de-activate it.
 This is a good security practice.
-    
+
 == Changelog ==
 
 = 1.0.4 =
 
-* Optimized for Brave Publisher Verification
-    
+* Optimized for Stellar Toml Creator
+
 == Installation ==
 
 1. Upload this plugin to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the *Plugins* menu in WordPress.
-3. Go to *Settings > Brave Payments Verification*, enter the verification code you received, and click on `Save Changes`.
+3. Go to *Settings > Stellar Toml Creator*, enter the verification code you received, and click on `Save Changes`.
 4. Once you have received an e-mail that your site has been verified, deactivate this plugin.
-    
+
 
 == Frequently Asked Questions ==
 
