@@ -2,7 +2,7 @@
 Contributors: pfefferle, mrose17, esecamalich
 Tags: well-known, well-known-uris, toml, stellar
 Requires at least: 3.5.1
-Tested up to: 4.9.1
+Tested up to: 5.3
 Stable tag: 1.0.4
 License: MPL2
 
