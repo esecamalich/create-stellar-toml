@@ -95,7 +95,7 @@ function well_known_uri($query) {
       $type = $options[STELLAR_WELL_KNOWN_URI_MATCHER_TYPE . $offset];
       if (empty($type)) $type = 'text/plain; charset=' . get_option('blog_charset');
       header('Content-Type: ' . $type, TRUE);
-      header("Access-Control-Allow-Origin: *", TRUE);
+      header('Access-Control-Allow-Origin: *', TRUE);
 
       $contents = $options[STELLAR_WELL_KNOWN_URI_MATCHER_CONTENTS . $offset];
       if (is_string($contents)) echo($contents);
